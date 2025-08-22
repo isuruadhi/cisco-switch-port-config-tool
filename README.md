@@ -38,7 +38,7 @@ A simple Python GUI tool to configure Cisco switch ports individually or via bul
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/cisco-switch-port-config-tool.git
+git clone https://github.com/isuruadhi/cisco-switch-port-config-tool.git
 cd cisco-switch-port-config-tool
 
 2. Install dependencies:

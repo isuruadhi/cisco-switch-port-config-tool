@@ -4,11 +4,7 @@ A simple Python GUI tool to configure Cisco switch ports individually or via bul
 
 <p align="center">
   <img src="https://github.com/isuruadhi/cisco-switch-port-config-tool/blob/main/images/Image1.png" width="45%"/>
-    <img src="https://github.com/isuruadhi/cisco-switch-port-config-tool/blob/main/images/image2.png" width="45%"/>
-</p>
-
-<p align="right">
-
+  <img src="https://github.com/isuruadhi/cisco-switch-port-config-tool/blob/main/images/image2.png" width="55%"/>
 </p>
 
 ---

@@ -73,8 +73,41 @@ python switch_config_tool.py
 
 ---
 
+## Code Explanation
+
+Here’s a **high-level breakdown** of the code
+
+1. **Imports**  
+   - `tkinter` & `ttk` → GUI elements  
+   - `filedialog`, `messagebox` → File selection and alerts  
+   - `csv` → Read CSV for bulk upload  
+   - `netmiko.ConnectHandler` → Connect to Cisco devices  
+
+2. **Device Connection Function**  
+   - `connect_device()` → Returns dictionary for Netmiko connection.
+
+3. **Single Port Functions**  
+   - `show_port_config()` → Fetch current config of a specified interface.  
+   - `preview_config()` → Generate config based on user input, show preview, optionally apply.  
+   - `configure_switch()` → Applies the commands to the switch.
+
+4. **GUI Setup**  
+   - Uses `tkinter` frames, labels, entries, dropdowns for input.  
+   - Buttons for viewing config, applying config, and bulk CSV upload.  
+   - Scrollable text boxes for additional commands and bulk preview.
+
+5. **Bulk CSV Upload**  
+   - Reads CSV, generates configs for multiple switches.  
+   - Opens a preview window for all configs.  
+   - Apply all or cancel options.  
+   - Provides success/failure summary with detailed errors.
+
+---
+
 ## Contribution
 
 Feel free to fork and submit pull requests. Suggestions for improvements are welcome!
+
+
 
 

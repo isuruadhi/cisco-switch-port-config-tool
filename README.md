@@ -3,7 +3,7 @@
 A simple Python GUI tool to configure Cisco switch ports individually or via bulk CSV upload using **Netmiko**.
 
 <p align="center">
-  <img src="images/image1.png"/>
+  <img src="https://github.com/isuruadhi/cisco-switch-port-config-tool/blob/main/images/Image1.png"/>
 </p>
 
 ---
